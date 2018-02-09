@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/mainBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="biz.riverone.ipscanner.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/mainPadding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/label_this_ip"
+            android:textColor="@color/mainForeground"
+            android:textSize="@dimen/textSizeMiddle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textViewThisIp"
+            android:textColor="@color/mainForeground"
+            android:textSize="@dimen/textSizeMiddle"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/mainPadding"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:text="@string/label_result"
+            android:textColor="@color/mainForeground"
+            android:textSize="@dimen/textSizeMiddle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:id="@+id/listViewIp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:text="@string/caption_button_refresh"
+        android:drawableTop="@drawable/ic_action_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:background="#666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </FrameLayout>
+
+</LinearLayout>

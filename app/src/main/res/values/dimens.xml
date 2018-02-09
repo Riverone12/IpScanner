@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeMiddle">24sp</dimen>
+    <dimen name="textSizeListItem">20sp</dimen>
+    <dimen name="mainPadding">8dp</dimen>
+</resources>

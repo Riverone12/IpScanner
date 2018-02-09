@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IP Scanner</string>
+
+    <string name="label_this_ip">IP address of this device</string>
+    <string name="label_result">Scanned Results</string>
+    <string name="caption_button_refresh">REFRESH</string>
+    <string name="progress_message">scanning..</string>
+</resources>

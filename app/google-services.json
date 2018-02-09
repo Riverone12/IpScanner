@@ -1,0 +1,228 @@
+{
+  "project_info": {
+    "project_number": "718933371084",
+    "firebase_url": "https://colorcodeconverter.firebaseio.com",
+    "project_id": "colorcodeconverter",
+    "storage_bucket": "colorcodeconverter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:321da49729710c1e",
+        "android_client_info": {
+          "package_name": "biz.riverone.colorcodeconverter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:1b90285898ac1d8a",
+        "android_client_info": {
+          "package_name": "biz.riverone.supportnotebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:3100fc1b70f8ac99",
+        "android_client_info": {
+          "package_name": "biz.riverone.mondokoro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:8c40d8956ca00e2c",
+        "android_client_info": {
+          "package_name": "biz.riverone.jancodemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:ad4b3861ec431141",
+        "android_client_info": {
+          "package_name": "biz.riverone.nw7codemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:28ca5d7e93d7edd5",
+        "android_client_info": {
+          "package_name": "biz.riverone.udpreflector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718933371084:android:da011807e08925f9",
+        "android_client_info": {
+          "package_name": "biz.riverone.ipscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718933371084-3u5f7pmheqn7gq0nhvr0800210t1h8mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhLokmJEHvuxR63QmB19ytLFOjU0XF7M4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
