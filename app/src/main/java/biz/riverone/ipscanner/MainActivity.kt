@@ -15,6 +15,7 @@ import biz.riverone.ipscanner.views.MyProgressDialog
  * Copyright (C) 2018 J.Kawahara
  * 2018.2.8 J.Kawahara 新規作成
  * 2018.2.9 J.Kawahara ver.1.00 初版公開
+ * 2018.2.16 J.Kawahara ver.1.01 丸型アイコンを更新
  */
 class MainActivity : AppCompatActivity() {
 
