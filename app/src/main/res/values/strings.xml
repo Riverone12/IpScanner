@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">IP Scanner</string>
 
+    <!---->
+    <string name="banner_ad_unit_id">ca-app-pub-1882812461462801/1435528269</string>
+    <!---->
+    <!-- Test
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    -->
+
     <string name="label_this_ip">IP address of this device</string>
     <string name="label_result">Scanned Results</string>
     <string name="caption_button_refresh">REFRESH</string>

@@ -9,6 +9,9 @@ import android.widget.ListView
 import android.widget.TextView
 import biz.riverone.ipscanner.views.IpListAdapter
 import biz.riverone.ipscanner.views.MyProgressDialog
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 
 /**
  * IPスキャナ
@@ -16,6 +19,7 @@ import biz.riverone.ipscanner.views.MyProgressDialog
  * 2018.2.8 J.Kawahara 新規作成
  * 2018.2.9 J.Kawahara ver.1.00 初版公開
  * 2018.2.16 J.Kawahara ver.1.01 丸型アイコンを更新
+ * 2018.3.10 J.Kawahara ver.1.02 AdMob 追加
  */
 class MainActivity : AppCompatActivity() {
 
@@ -33,6 +37,12 @@ class MainActivity : AppCompatActivity() {
         ipListAdapter = IpListAdapter(this)
 
         initializeControls()
+
+        // AdMob
+        MobileAds.initialize(applicationContext, "ca-app-pub-1882812461462801~4821961708")
+        val adView = findViewById<AdView>(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
     }
 
     private fun initializeControls() {
