@@ -20,12 +20,15 @@ import com.google.android.gms.ads.MobileAds
  * 2018.2.9 J.Kawahara ver.1.00 初版公開
  * 2018.2.16 J.Kawahara ver.1.01 丸型アイコンを更新
  * 2018.3.10 J.Kawahara ver.1.02 AdMob 追加
+ * 2018.3.20 J.Kawahara ver.1.03 スキャンのキャンセル直後に再スキャンすると強制終了する不具合を修正
  */
 class MainActivity : AppCompatActivity() {
 
     private val scanner = IpScanner()
     private var progressDialog: MyProgressDialog? = null
     private lateinit var ipListAdapter: IpListAdapter
+
+    private val buttonRefresh by lazy { findViewById<Button>(R.id.buttonRefresh) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,11 +53,9 @@ class MainActivity : AppCompatActivity() {
         val listViewIp = findViewById<ListView>(R.id.listViewIp)
         listViewIp.adapter = ipListAdapter
 
-        val buttonRefresh = findViewById<Button>(R.id.buttonRefresh)
         buttonRefresh.setOnClickListener {
             startScan()
         }
-
     }
 
     override fun onResume() {
@@ -70,6 +71,8 @@ class MainActivity : AppCompatActivity() {
 
     // スキャンを開始する
     private fun startScan() {
+        buttonRefresh.isEnabled = false
+
         // プログレスダイアログを表示する
         val message = resources.getString(R.string.progress_message)
         progressDialog = MyProgressDialog.create(Handler(), message)
@@ -86,6 +89,10 @@ class MainActivity : AppCompatActivity() {
 
             // プログレスダイアログを閉じる
             progressDialog?.cancel()
+
+            runOnUiThread {
+                buttonRefresh.isEnabled = true
+            }
         }
     }
 }
